@@ -1,0 +1,8 @@
+
+[raspberrypi]
+comment = Raspberry Pi
+path = /home/pi
+guest ok = yes
+read only =  no
+browsable = yes
+force user = pi
