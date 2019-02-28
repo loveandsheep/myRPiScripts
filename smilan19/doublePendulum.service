@@ -1,0 +1,17 @@
+[Unit]
+Description=doublePendulum
+After=syslog.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi/DoublePendulum/rpi_serialThru/bin
+ExecStart=/home/pi/DoublePendulum/rpi_serialThru/bin/rpi_serialThru
+TimeoutStopSec=5
+StandardOutput=null
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+
+
+

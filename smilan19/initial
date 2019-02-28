@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sudo /home/pi/DoublePendulum/rpi_serialThru/bin/rpi_serialThru &
